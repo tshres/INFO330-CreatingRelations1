@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS buildings (
+CREATE TABLE buildings (
     name TEXT(80) NOT NULL,
     shortname TEXT(10) UNIQUE,
     id INTEGER PRIMARY KEY AUTOINCREMENT
@@ -9,7 +9,7 @@ INSERT INTO buildings (name, shortname) VALUES
     ('Architecture Hall', 'ARC');
 
 
-CREATE TABLE IF NOT EXISTS rooms (
+CREATE TABLE rooms (
     number INTEGER,
     buildingid INTEGER,
     seating INTEGER,

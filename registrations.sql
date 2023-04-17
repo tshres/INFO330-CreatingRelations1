@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS student_courses (
+CREATE TABLE student_courses (
   studentid INTEGER,
   course TEXT,
   grade FLOAT DEFAULT NULL,

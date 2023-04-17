@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS courses (
+CREATE TABLE courses (
     code TEXT(40) PRIMARY KEY NOT NULL CHECK(length(code) >= 7),
     description TEXT(400),
     start DATE NOT NULL,

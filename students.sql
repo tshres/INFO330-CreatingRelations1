@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS students (
+CREATE TABLE students (
     id INTEGER PRIMARY KEY,
     firstname TEXT(40),
     lastname TEXT(80),
